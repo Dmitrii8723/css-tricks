@@ -1,0 +1,44 @@
+@keyframes blink {
+    0% {
+        background: violet;
+    }
+    15% {
+        background: indigo;
+    }
+    30% {
+        background: blue;
+    }
+    42% {
+        background: green;
+    }
+    58% {
+        background: yellow;
+    }
+    70% {
+        background: orange;
+    }
+    85% {
+        background: red;
+    }
+    100% {
+        background: violet;
+    }
+}
+
+div {
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    animation: blink 10s infinite; 
+}
+
+body {
+    height: 100%;
+    background: rgb(70, 184, 167);
+    background: rgb(2,0,36);
+background: linear-gradient(302deg,
+ rgba(2,0,36,1) 0%,
+ rgba(9,9,121,1) 0%, rgba(5,92,176,1) 0%,
+ rgba(110,17,121,0.9206057422969187) 43%,
+ rgba(0,212,255,1) 100%);
+}
